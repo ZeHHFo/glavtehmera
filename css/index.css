@@ -1,0 +1,139 @@
+.site-main {
+    font-family: "Inter", sans-serif;
+  }
+
+.about-preview {
+    background: url('../assets/images/Back.png') no-repeat center/cover;
+    padding: 340px 0;
+    color: #1D3557;
+    text-align: center;
+    z-index: 1;
+    font-weight: 600;
+}
+
+.about-container {
+    max-width: 1180px;
+    width: 90%;
+    margin: auto;
+}
+
+.services-nav {
+    color: #1D3557;
+    font-weight: 900;
+    max-width: 1180px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 0 0 90px 0;
+}
+
+.services {
+    font-size: 24px;
+    margin: 50px 0px 80px 0px;
+}
+
+.serv-nav{
+    color: #1D3557;
+    font-size: 16px;
+    display: flex;
+    gap: 180px;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    max-width: 250px;
+    width: 90%;
+    margin: auto;
+}
+
+.card2 {
+    max-width: 250px;
+    width: 90%; 
+    margin: 0 auto;
+}
+
+.card3 {
+    max-width: 250px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.serv-nav p {
+    margin: 30 auto;
+}
+
+.why-us {
+    background-color: #1D3557;
+    color: #F5F5F5;
+}
+
+.why-us-text {
+    max-width: 1180px;
+    width: 90%;
+    margin: auto;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    padding: 40px;
+}
+
+.why-us-point {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.point1 {
+    max-width: 1180px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.point2 {
+    max-width: 1180px;
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.point3 {
+    max-width: 1180px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.check {
+    color: #FDC500;
+    font-size: 20px;
+}
+
+.point-block {
+    padding-bottom: 50px;
+}
+
+.Reviews {
+    color: #1D3557;
+    font-size: 16px;
+    font-weight: 600;
+    max-width: 1180px;
+    width: 90%;
+    margin: auto;
+}
+
+.comment {
+    padding: 40px 0;
+    margin: auto;
+}

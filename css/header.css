@@ -1,0 +1,60 @@
+.site-header {
+    font-family: 'Inter', sans-serif;
+  }
+  
+
+  .header-container {
+    background-color: #1D3557;
+  }
+  
+  .top {
+    margin: auto;
+    width: 90%;
+    padding: 40px;
+    max-width: 1180px;
+    display: flex;
+  }
+
+.Phone-number {
+    color: #1D3557;
+    font-weight: 700;
+    margin-left: auto;
+}
+
+  .logo {
+    margin: auto 0 auto 0;
+    color: #1D3557;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+
+  .nav {
+    padding: 40px 0;
+    width: 90%;
+    max-width: 1180px;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: clamp(20px, 10vw, 200px);
+    margin: 0 auto;
+    padding: 0;
+    flex-wrap: wrap;
+    }
+  
+  .nav a {
+    text-decoration: none;
+    color: #F5F5F5;
+    font-weight: 700;
+    transition: color 0.2s ease;
+  }
+  
+  .nav a:hover {
+    color: #FDC500;
+  }

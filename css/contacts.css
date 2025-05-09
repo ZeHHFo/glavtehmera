@@ -1,0 +1,97 @@
+.company-contacts-info {
+    font-family: 'Inter', sans-serif;
+    color: #1D3557;
+}
+
+.contacts {
+    max-width: 1180px;
+    width: 90%;
+    margin: 50px auto 40px;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.contacts-point-email {
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    padding-bottom: 30px;
+    
+}
+
+.point-person {
+    margin: 10px auto;
+}
+
+.contacts-boss-block {
+    max-width: 1180px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16px;
+    
+}
+
+.contacts-boss {
+    font-weight: 600;
+}
+
+.contacts-boss-name {
+    font-weight: 600;
+}
+
+.contacts-boss-number {
+    font-weight: 400;
+}
+
+.contacts-accountant-block {
+    max-width: 1180px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 40px 0;
+}
+
+.contacts-accountant {
+    font-weight: 600;
+}
+
+.contacts-accountant-name {
+    font-weight: 600;
+}
+
+.contacts-accountant-number {
+    font-weight: 400;
+}
+
+.point-name-сolumn {
+    max-width: 222px;
+    width: 90%;
+    margin: 0 auto;
+    font-weight: 600;
+}
+
+.point-data-сolumn {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contacts-data-block {
+    display: flex;
+    max-width: 1180px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 25px;
+
+}
+
+.block-name {
+    max-width: 1180px;
+    width: 90%;
+    margin: 0 auto;
+    font-weight: 600;
+}
+
+.contacts-data {
+    padding-bottom: 100px;
+}

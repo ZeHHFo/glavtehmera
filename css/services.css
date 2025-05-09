@@ -1,0 +1,75 @@
+.about-services-info {
+    font-family: 'Inter', sans-serif;
+}
+
+.us-services {
+    color: #1D3557;
+}
+
+.services-us-name {
+    max-width: 1180px;
+    width: 90%;
+    margin: auto;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    padding: 50px 0px 30px 0px;
+}
+
+.point-block-services-blue {
+    background-color: #1D3557;
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.point {
+    max-width: 1180px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+.services-us-name-part-white {
+    max-width: 1180px;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 30px;
+    font-weight: 900;
+}
+
+.services-us-name-part1 {
+    max-width: 1180px;
+    width: 90%;
+    margin: auto;
+    padding: 30px 0px;
+    font-weight: 900;
+}
+
+.services-us-name-part2 {
+    max-width: 1180px;
+    width: 90%;
+    margin: auto;
+    padding: 30px 0px;
+    font-weight: 900;
+}
+
+.point-last {
+    max-width: 1180px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-bottom: 60px;
+}

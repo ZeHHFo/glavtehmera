@@ -1,0 +1,110 @@
+.about-company-info {
+    font-family: 'Inter', sans-serif;
+}
+
+.about-com {
+    font-weight: 400;
+    font-size: 16px;
+    color: #1D3557;
+    max-width: 1180px;
+    width: 90%;
+    margin: auto;
+}
+
+.about-com-container {
+    margin: 50px auto;
+}
+
+.about-com-container ul {
+    margin: 0 auto;
+}
+
+.about-container3 {
+    margin: 0 auto;
+}
+
+.why-us {
+    background-color: #1D3557;
+    color: #F5F5F5;
+}
+
+.why-us-text {
+    max-width: 1180px;
+    width: 90%;
+    margin: auto;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    padding: 40px;
+}
+
+.why-us-point {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.point1 {
+    max-width: 1180px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.point2 {
+    max-width: 1180px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.point3 {
+    max-width: 1180px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 50px;
+    
+}
+
+.point4 {
+    max-width: 1180px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.point5 {
+    max-width: 1180px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 85px;
+}
+
+.check {
+    color: #FDC500;
+    padding: 0 25 0 0;
+}

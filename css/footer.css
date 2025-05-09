@@ -1,0 +1,46 @@
+.site-footer {
+    background-color: #1D3557;
+    color: #F5F5F5;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+  }
+  
+  .yellow-strip {
+    height: 50px;
+    background-color: #FDC500;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1180px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 40px 0;
+  }
+  
+.footer-left {
+    width: 45%;
+    min-width: 250px;
+    text-align: left;
+
+}
+
+  .footer-right {
+    width: 45%;
+    min-width: 440px;
+    text-align: right;
+
+  }
+  
+.text-900 {
+    font-weight: 900;
+}
+
+.text-600 {
+    font-weight: 600;
+}
+
+.text-400 {
+    font-weight: 400;
+}
