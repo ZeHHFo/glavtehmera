@@ -23,7 +23,11 @@
     </section>
     <section class="header-navigation">
     <div class="header-container">
-      <nav class="nav">
+      <div class="burger-container">
+        <button id="burger-open" class="burger">&#9776;</button>
+        <button id="burger-close" class="burger" style="display: none;">✕</button>
+      </div>
+      <nav class="nav" id="nav-menu">
         <ul>
           <li data-aos="zoom-in" data-aos-offset="0"><a href="index.html">ГЛАВНАЯ</a></li>
           <li data-aos="zoom-in" data-aos-offset="0"><a href="about.html">О КОМПАНИИ</a></li>
@@ -139,5 +143,6 @@
     AOS.init();
   </script>
   <script src="js/main.js"></script>
+  
 </body>
 </html>

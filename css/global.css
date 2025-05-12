@@ -1,3 +1,60 @@
 body {
     margin: 0;
   }
+
+
+  .burger-container {
+    display: none;
+    padding: 10px;
+  }
+  
+  .burger {
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #nav-menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Адаптив для мобильных */
+  @media (max-width: 768px) {
+    .burger-container {
+      display: block;
+    }
+  
+    #nav-menu {
+      display: none;
+      flex-direction: column;
+      background-color: #1e3557;
+      width: 100%;
+      position: relative;
+      padding: 10px 0;
+      margin: 0;
+    }
+  
+    #nav-menu.open {
+      display: flex;
+    }
+  
+    #nav-menu ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  
+    #nav-menu li {
+      padding: 10px 0;
+      text-align: center;
+    }
+  
+    #nav-menu a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+    }
+  }
