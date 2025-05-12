@@ -3,7 +3,9 @@ body {
   }
 
 
-  .burger-container {
+
+/* Общий стиль */
+.burger-container {
     display: none;
     padding: 10px;
   }
@@ -58,3 +60,4 @@ body {
       font-size: 18px;
     }
   }
+  
