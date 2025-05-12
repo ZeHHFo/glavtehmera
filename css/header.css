@@ -2,7 +2,6 @@
     font-family: 'Inter', sans-serif;
   }
   
-
   .header-container {
     background-color: #1D3557;
   }
@@ -28,7 +27,6 @@
     font-weight: 700;
     text-decoration: none;
   }
-
 
   .nav {
     padding: 40px 0;
@@ -57,4 +55,34 @@
   
   .nav a:hover {
     color: #FDC500;
+  }
+
+  @media (max-width: 768px) {
+    .top {
+      padding: 20px;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 15px;
+    }
+
+    .Phone-number {
+      margin: 0;
+    }
+
+    .nav {
+      padding: 20px 0;
+    }
+
+    .nav ul {
+      gap: 15px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .nav ul {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
   }

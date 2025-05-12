@@ -38,28 +38,17 @@
     display: flex;
     gap: 180px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-.card1 {
+.card1, .card2, .card3 {
     max-width: 250px;
     width: 90%;
     margin: auto;
 }
 
-.card2 {
-    max-width: 250px;
-    width: 90%; 
-    margin: 0 auto;
-}
-
-.card3 {
-    max-width: 250px;
-    width: 90%;
-    margin: 0 auto;
-}
-
 .serv-nav p {
-    margin: 30 auto;
+    margin: 30px auto;
 }
 
 .why-us {
@@ -82,32 +71,10 @@
     font-weight: 600;
 }
 
-.point1 {
-    max-width: 1180px;
-    width: 90%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.point2 {
+.point1, .point2, .point3 {
     max-width: 1180px;
     width: 90%;
     margin: 30px auto;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.point3 {
-    max-width: 1180px;
-    width: 90%;
-    margin: auto;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -136,4 +103,54 @@
 .comment {
     padding: 40px 0;
     margin: auto;
+}
+
+@media (max-width: 992px) {
+    .about-preview {
+        padding: 200px 0;
+    }
+
+    .serv-nav {
+        gap: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-preview {
+        padding: 150px 0;
+    }
+
+    .services {
+        font-size: 20px;
+        margin: 30px 0px 50px 0px;
+    }
+
+    .why-us-text {
+        font-size: 20px;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-preview {
+        padding: 100px 0;
+    }
+
+    .services {
+        font-size: 18px;
+    }
+
+    .why-us-text {
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    .why-us-point {
+        font-size: 14px;
+    }
+
+    .comment {
+        padding: 20px 0;
+        font-size: 14px;
+    }
 }
