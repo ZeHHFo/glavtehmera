@@ -8,31 +8,33 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/contacts.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <header class="site-header">
         <div class="top">
-            <a href="contacts.html" class="logo">ГЛАВТЕХМЕРА</a>
-            <p class="Phone-number">+7 928 901-00-07</p>
+            <a href="contacts.html" class="logo" data-aos="fade-right">ГЛАВТЕХМЕРА</a>
+            <p class="Phone-number" data-aos="fade-left">+7 928 901-00-07</p>
         </div>
         <div class="header-container">
           <nav class="nav">
             <ul>
-              <li><a href="index.html">ГЛАВНАЯ</a></li>
-              <li><a href="about.html">О КОМПАНИИ</a></li>
-              <li><a href="services.html">УСЛУГИ</a></li>
-              <li><a href="contacts.html">КОНТАКТЫ</a></li>
+              <li data-aos="zoom-in"><a href="index.html">ГЛАВНАЯ</a></li>
+              <li data-aos="zoom-in"><a href="about.html">О КОМПАНИИ</a></li>
+              <li data-aos="zoom-in"><a href="services.html">УСЛУГИ</a></li>
+              <li data-aos="zoom-in"><a href="contacts.html">КОНТАКТЫ</a></li>
             </ul>
           </nav>
         </div>
         </header>
         <main class="company-contacts-info">
           <section class="contacts" id="contacts">
-            <div class="container">
+            <div class="container" data-aos="zoom-in" data-aos-offset="0">
               <span class="contacts-name">КОНТАКТЫ</span>
             </div>
           </section>
-          <section class="contacts-boss-block" id="contacts">
+          <section class="contacts-boss-block" id="contacts" data-aos="fade-right" data-aos-offset="0">
             <span class="contacts-point-email">E-mail: Glavtexmera@mail.ru</span>
             <div class="point-person">
               <span class="contacts-boss">Директор</span>
@@ -44,7 +46,7 @@
               <span class="contacts-boss-number">+7 928 901-00-07</span>
             </div>
           </section>
-          <section class="contacts-accountant-block" id="contacts">
+          <section class="contacts-accountant-block" id="contacts" data-aos="fade-right" data-aos-offset="0">
             <div class="point-person">
               <span class="contacts-accountant">Главный бухгалтер</span>
             </div>
@@ -57,7 +59,7 @@
           </section>
 
 
-          <section class="contacts-data">
+          <section class="contacts-data" data-aos="fade-right" data-aos-offset="0">
             <p class="block-name">Общество с ограниченной ответственностью «Главтехмера»</p>
           <section class="contacts-data-block" id="contacts">
             <div class="point-name-сolumn">
@@ -131,18 +133,20 @@
             <div class="yellow-strip"></div>
             <div class="footer-content">
               <div class="footer-left">
-                <p class="text-900">ООО “ГЛАВТЕХМЕРА” © 2025</p>
-                <p class="text-600">ГРАФИК РАБОТЫ:</p>
-                <p class="text-400">Пн–Пт: с 8:00 до 17:00</p>
+                <p class="text-900" data-aos="fade-right" data-aos-offset="0">ООО “ГЛАВТЕХМЕРА” © 2025</p>
+                <p class="text-600" data-aos="fade-right" data-aos-offset="0">ГРАФИК РАБОТЫ:</p>
+                <p class="text-400" data-aos="fade-right" data-aos-offset="0">Пн–Пт: с 8:00 до 17:00</p>
               </div>
               <div class="footer-right">
-                <p class="text-900">+7 928 901-00-07</p>
-                <p class="text-600">GLAVTEXMERA@MAIL.RU</p>
-                <p class="text-400">344023, Г.РОСТОВ-НА-ДОНУ, ПЕР.БОГАТЫРСКИЙ, 13 А</p>
+                <p class="text-900" data-aos="fade-left" data-aos-offset="0">+7 928 901-00-07</p>
+                <p class="text-600" data-aos="fade-left" data-aos-offset="0">GLAVTEXMERA@MAIL.RU</p>
+                <p class="text-400" data-aos="fade-left" data-aos-offset="0">344023, Г.РОСТОВ-НА-ДОНУ, ПЕР.БОГАТЫРСКИЙ, 13 А</p>
               </div>
             </div>
         </footer>
 
-
+        <script>
+          AOS.init();
+        </script>
 </body>
 </html>
