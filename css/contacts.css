@@ -28,6 +28,7 @@
     width: 90%;
     margin: 0 auto;
     font-size: 16px;
+    padding-bottom: 20px;
 }
 
 .contacts-boss {
@@ -39,26 +40,6 @@
 }
 
 .contacts-boss-number {
-    font-weight: 400;
-}
-
-.contacts-accountant-block {
-    max-width: 1180px;
-    width: 90%;
-    margin: 0 auto;
-    font-size: 16px;
-    padding: 40px 0;
-}
-
-.contacts-accountant {
-    font-weight: 600;
-}
-
-.contacts-accountant-name {
-    font-weight: 600;
-}
-
-.contacts-accountant-number {
     font-weight: 400;
 }
 
@@ -106,8 +87,7 @@
 
 @media (max-width: 768px) {
     .contacts-point-email,
-    .contacts-boss-block,
-    .contacts-accountant-block {
+    .contacts-boss-block {
         font-size: 14px;
     }
 
