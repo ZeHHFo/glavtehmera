@@ -14,12 +14,6 @@
   display: flex;
 }
 
-.Phone-number {
-  color: #1D3557;
-  font-weight: 700;
-  margin-left: auto;
-}
-
 .logo {
   margin: auto 0 auto 0;
   color: #1D3557;
@@ -55,6 +49,18 @@
 
 .nav a:hover {
   color: #FDC500;
+}
+
+.whatsapp-link {
+  margin: auto 0;
+}
+
+.social {
+  color: #1D3557;
+  font-weight: 700;
+  margin-left: auto;
+  display: flex;
+  gap: 30px;
 }
 
 @media (max-width: 768px) {
