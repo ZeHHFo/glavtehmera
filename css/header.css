@@ -72,8 +72,12 @@
     gap: 15px;
   }
 
-  .Phone-number {
-    margin: 0;
+  .social {
+    margin: auto 0;
+  }
+
+  .whatsapp-link {
+    margin: auto 0;
   }
 
   .nav {
